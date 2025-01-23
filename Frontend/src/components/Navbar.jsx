@@ -58,8 +58,8 @@ function Navbar() {
     </ul>
   </div>
 <div className='hidden md:block' >
-<label className="input input-bordered flex items-center gap-2">
-  <input type="text" className="grow" placeholder="Search" />
+<label className=" px-3 py-2 border rounded-md flex items-center gap-2">
+  <input type="text" className="grow outline-none" placeholder="Search" />
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -79,7 +79,7 @@ function Navbar() {
 
   {/* sun icon */}
   <svg
-    class="swap-off h-8 w-8 fill-current"
+    class="swap-off h-7 w-7 fill-current"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24">
     <path
@@ -88,7 +88,7 @@ function Navbar() {
 
   {/* moon icon */}
   <svg
-    class="swap-on h-8 w-8 fill-current"
+    class="swap-on h-7 w-7 fill-current"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24">
     <path
