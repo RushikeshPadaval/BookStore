@@ -21,7 +21,7 @@ function Navbar() {
     )
   return (
     <>
-      <div>
+      <div className="max-w-screen-2x1 container mx-auto md:px-20 px-4">
       <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
