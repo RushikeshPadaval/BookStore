@@ -43,7 +43,7 @@ function Navbar() {
     <>
 
       <div className={`max-w-screen-2x1 container mx-auto md:px-20 px-4  fixed top-0 left-0 right-0 ${sticky?"sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out":""}` } >
-      <div className="navbar bg-base-100">
+      <div className="navbar ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
