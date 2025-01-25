@@ -1,6 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useState } from 'react'
 
 function Navbar() {
+  const [sticky, setSticky]=useState (false)
+  useEffect (()=>{
+    const handleScroll=()=>{
+      if(window.scroll>0){
+        setSticky(true)
+      }
+      else {
+        setSticky(false)
+      }
+    }
+    window.addEventListener('scroll',handleScroll)
+
+
+
+  },[])
 
     const navItems = (
         <>
@@ -16,7 +32,7 @@ function Navbar() {
       
       <li><a>About</a>
       </li>
-      //
+      
 
         </>
     )
