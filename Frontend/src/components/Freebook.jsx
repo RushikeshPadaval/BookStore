@@ -2,7 +2,7 @@ import React from "react";
 import list from "../../public/list.json"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Cards from "./Cards";
 
 import Slider from "react-slick";
 
@@ -49,38 +49,21 @@ function Freebook() {
     <>
         <div className="max-w-screen-2x1 container mx-auto md:px-20 px-4 " >
             <h1 className="font-semibold text-xl  pd-2 " >50% Discount </h1>
-            <p className="text-gray-600 mt-2">
+        <div>
+        <p className="text-gray-600 mt-2">
   Don't miss out on this limited-time offer! Enjoy a massive 50% discount on your favorite books across various categories. Whether you're into fiction, self-improvement, or biographies, we've got something for everyone. Shop now and grab your favorites before the deal ends!
 </p>
         </div>
         <div>
         <Slider {...settings}>
-        <div>
-          <h3>1</h3>
-        </div>
-        <div>
-          <h3>2</h3>
-        </div>
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
-        </div>
-        <div>
-          <h3>7</h3>
-        </div>
-        <div>
-          <h3>8</h3>
-        </div>
+          { filterData.map((item)=> (
+            <Cards item={item} key={item.id} />
+          ))}
+    
       </Slider>
         </div>
+        </div>
+
     </>
     );
 }
