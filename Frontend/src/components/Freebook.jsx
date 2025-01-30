@@ -7,7 +7,7 @@ import Cards from "./Cards";
 import Slider from "react-slick";
 
 function Freebook() {
-    const filterData = list.filter((data) => data.category === "Free");
+    const filterData = list.filter((data) => data.category === "sell");
     var settings = {
         dots: true,
         infinite: false,

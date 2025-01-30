@@ -157,7 +157,7 @@
     "name": "IKIGAI",
     "author": "Francesc Garica",
     "price": 322 ,
-    "category":"Free",
+    "category":"sell",
     "image": "https://m.media-amazon.com/images/I/81l3rZK4lnL._AC_UY327_FMwebp_QL65_.jpg"
 
  },
@@ -177,7 +177,7 @@
     "name": "POWER",
     "author": "ROBERT GREENE",
     "price": 220 ,
-    "category":"Free",
+    "category":"sell",
     "image": "https://m.media-amazon.com/images/I/61F-bq53kOL._AC_UY327_FMwebp_QL65_.jpg"
 
  },
@@ -187,8 +187,8 @@
     "name": "THE MONK WHO SOLD HIS FERRARI",
     "author": "Robin Sharma",
     "price": 118 ,
-    "category":"Free",
-    "image": "https://www.amazon.in/Monk-Who-Sold-His-Ferrari/dp/817992162X/ref=sr_1_17?dib=eyJ2IjoiMSJ9.Xs1i-D5YTfaKW5UNFr9NbsXMNBfx1XgXVXHIgxoek3YD2R3rT4ChTjzvbEsVNcALUfNzOGKC5ZeqIq-EdoZbxNy5ClMQstRHghFm0oLurtdrvfKcTtnoBpT6VPJmy-RqrTvOGp4hQumPWPweXvE16LPx7EBmbjs2CcrEivHiIajVLgGgvqaMQ8dx6SqNF0yM_60nTu-taUTUe2QsBOLjpi71HzdWfZ1T0joZpL_GvvY.MFh_CC2KweuGtggX4LKlmNGwTAWr-FdAtDDiNafC96Y&dib_tag=se&qid=1737947756&refinements=p_n_feature_three_browse-bin%3A9141482031&rnid=976389031&s=books&sr=1-17"
+    "category":"sell",
+    "image": "https://m.media-amazon.com/images/I/417WFuXHHzL._SY342_.jpg"
 
  },
  {
@@ -197,17 +197,21 @@
     "name": "MEN SEARCH FOR MEANING",
     "author": "VICTOR E. FRANKL",
     "price": 144 ,
-    "category":"Free",
+    "category":"sell",
     "image": "https://m.media-amazon.com/images/I/71P2dC5OQhL._SY342_.jpg"
 
- }, {
+ },
+ 
+ {
+
+   
 
     "id":21,
     "name": "Dopamine Detox",
     "author": "THIBAUT",
     "price": 200 ,
-    "category":"Free",
-    "image": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo0MTAzNzI1MzM5NTk2ODM5OjE3Mzc5NDgyMjc6c3BfYXRmOjMwMDMwODM4MDU2NjUzMjo6MDo6&url=%2FDopamine-Detox-Remove-Distractions-Things%2Fdp%2F8183286011%2Fref%3Dsr_1_1_sspa%3Fcrid%3DJZ2TW0U9WJOT%26dib%3DeyJ2IjoiMSJ9.E519uqeMPVTyGg8JZWMtB0ZZk-bPcTOp4zYQCqPSUJcPKUICO3BhecDO1Bx90Ha1FvEPHlNF7N3EY25aVy0dUGmTXOhVpj_-rZKKMQf7Qyxf0dz2ePPo6O-cEZ5gDgScNacOFSsPVGgDa5Me8NevywkIACgoc25OqBAcRr3Cw2aRG83iiRAIXLjER1EzhTXMQdzHNITcbn6TPVsK_j4ru0NKVnACCYQFUrzmBhAX42U.FT8MR5yJv8K4S-Jpc53FmtdEiOemEVmJrXSiUMCCjCY%26dib_tag%3Dse%26keywords%3Ddopamine%2Bdetox%2Bbook%26qid%3D1737948226%26sprefix%3Ddopmain%252Caps%252C228%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1"
+    "category":"sell",
+    "image": "https://m.media-amazon.com/images/I/712K3sdLlRL._SY342_.jpg"
 
  }
 ]

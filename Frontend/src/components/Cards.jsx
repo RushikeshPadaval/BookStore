@@ -11,13 +11,18 @@ function Cards ({item})  {
   </figure>
   <div className="card-body">
     <h2 className="card-title">
-      Shoes!
-      <div className="badge badge-secondary">NEW</div>
+     {item.name}
+      <div className="badge badge-secondary">{item.category}</div>
     </h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <div className="badge badge-outline">Fashion</div>
-      <div className="badge badge-outline">Products</div>
+    <h4>
+      <div className="" > {item.author}
+
+      </div>
+    </h4>
+    <p>{item.title}</p>
+    <div className="card-actions justify-between">
+      <div className="badge badge-outline">Rs{item.price}</div>
+      <div className="badge badge-outline  hover:text-pink-500 ">Buy Now</div>
     </div>
   </div>
 </div>
