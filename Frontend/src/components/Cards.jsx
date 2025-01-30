@@ -1,13 +1,12 @@
 import React from "react";
 
 function Cards ({item})  {
-  console.log (item);
     return (
         <><div>
             <div className="card bg-base-100 w-96 shadow-xl">
   <figure>
     <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      src={item.image} 
       alt="Shoes" />
   </figure>
   <div className="card-body">
