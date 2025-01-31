@@ -2,10 +2,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/BookStore/', // 🔥 Important: Must match your repo name!
+  plugins: [react()], // Use the React plugin
   build: {
-    outDir: 'dist',
+    outDir: 'dist', // Output directory for the build files
   },
 });
-// createf for gh-pages base and build was added
