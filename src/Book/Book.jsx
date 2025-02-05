@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar'
 import Books from '../components/Books'
 import Footer from '../components/Footer'
 function Book() {
-
   return (
     <>
     <Navbar />
