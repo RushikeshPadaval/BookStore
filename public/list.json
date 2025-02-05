@@ -1,218 +1,171 @@
-
-[  
-  {
-
-    "id":1,
-    "name": "Iron Flame",
-    "author": "Rebecca Yarros",
-    "price": 500 ,
-    "category":"StoryBook",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/917Bc9C1MlL._AC_UL600_SR600,400_.jpg"
-
- },
- {
-
-    "id":2,
-    "name": "A COURT OF WINGS AND RUIN",
-    "author": "Sarah j.Mass",
-    "price": 200,
-    "category":"Fiction",
-    "image": "https://m.media-amazon.com/images/I/81x57yTWFqL._SY342_.jpg"
-
- },
- {
-
-    "id":3,
-    "name": "A MAN CALLED OVE",
-    "author": "FEDRIK BACKMAN",
-    "price": 100 ,
-    "category":"Fiction",
-    "image": "https://m.media-amazon.com/images/I/81g2oEdeGTL._AC._SR360,460.jpg"
-
- },
- {
-
-    "id":4,
-    "name": "Harry Potter and the Chamber of Secrets",
-    "author": "JK ROWLING",
-    "price": 200 ,
-    "category":"fiction",
-    "image": "https://m.media-amazon.com/images/I/818umIdoruL._AC._SR360,460.jpg"
-
- }
- ,
- {
-
-    "id":5,
-    "name": "SHAH RUKH KHAN",
-    "author": "MOHAR BASU",
-    "price": 250 ,
-    "category":"Biography",
-    "image": "https://m.media-amazon.com/images/I/81KxYTNaYxL._AC._SR360,460.jpg"
-
- },
- {
-
-    "id":6,
-    "name": "Wings Of Fire ",
-    "author": "APJ ABDUL KALAM ",
-    "price": 100 ,
-    "category":"Autobiography",
-    "image": "https://m.media-amazon.com/images/I/71KKZlVjbwL._AC._SR360,460.jpg"
-
- },
- {
-
-    "id":7,
-    "name": "A BRIEF HISTORY OF TIME",
-    "author": "STEPHEN HAWKING ",
-    "price": 333 ,
-    "category":"Autobiography",
-    "image": "https://m.media-amazon.com/images/I/81DBK93b6jL._AC._SR360,460.jpg"
-
- },
- {
-
-    "id":8,
-    "name": "THE DIARY OF A YOUNG GIRL",
-    "author": "ANNE FRANK",
-    "price": 139 ,
-    "category":"Autobiography",
-    "image": "https://m.media-amazon.com/images/I/81lZ-9E4F-S._AC._SR360,460.jpg"
-
- },
- {
-
-    "id":9,
-    "name": "NON SENSE",
-    "author": "Daksh Tyagi",
-    "price": 399 ,
-    "category":"Humor",
-    "image": "https://m.media-amazon.com/images/I/61r5DfVizrL._AC._SR360,460.jpg"
-
- },
- {
-
-    "id":10,
-    "name": "THREE MEN IN A BOAT",
-    "author": "Jerome k.Jerome",
-    "price": 120 ,
-    "category":"Humor",
-    "image": "https://m.media-amazon.com/images/I/71I-wmRTBdL._AC_SR480%2C570_.jpg"
-
- },
- {
-
-    "id":11,
-    "name": "COMEDY IN KHAKEE",
-    "author": "PRAKASH MISHRA,IPS",
-    "price": 350 ,
-    "category":"Humor",
-    "image": "https://m.media-amazon.com/images/I/71ZQ0kNk3PL._AC._SR360,460.jpg"
-
- },
- {
-
-    "id":12,
-    "name": "October Junction",
-    "author": "Divya Prakash Dube",
-    "price": 149 ,
-    "category":"Hindi",
-    "image": "https://m.media-amazon.com/images/I/71bcfeaqHpL._AC_UY327_FMwebp_QL65_.jpg"
-
- },
- {
-
-    "id":13,
-    "name": "Godan",
-    "author": "Premchand",
-    "price": 179 ,
-    "category":"Hindi",
-    "image": "https://m.media-amazon.com/images/I/71U6ZbG2TEL._AC_UY327_FMwebp_QL65_.jpg"
-
- },
- {
-
-    "id":14,
-    "name": "Kafan",
-    "author": "Premchand",
-    "price": 164 ,
-    "category":"Hindi",
-    "image": "https://m.media-amazon.com/images/I/81MDiCjzUxL._AC_UY327_FMwebp_QL65_.jpg"
-
- },
- {
-
-    "id":15,
-    "name": "Chanakya Niti",
-    "author": "Ashwini Parashar",
-    "price": 130 ,
-    "category":"Hindi",
-    "image": "https://www.amazon.in/Chanakya-Neeti-Ashwini-Parashar/dp/8171826253/ref=sr_1_33?crid=2I78HIM7A2LRF&dib=eyJ2IjoiMSJ9.eEkLy_ERTbHKOL6b-sA55NNPJzMMLneLaQwqikoH_3Yek5Ti7ATeXoajDL-J45YPEbpXM8DB-zeraBWNUo1FzBFamCVj922riAQg0SRNc95sUF8zjMj45RU9oYUUREgEE45ry1lMpYABp0c2x4UbppVKJXxjNf_e0T23s7RZdxd4NGo_WeklN_K36KnF8-Sw2T-X9wy9ZNyF8CY3C9Dj5fKbxiRvXxJWU4DI3XJ2ki8.4vYRY8zS9UmaVmU0DtT2g4kDEovoXm-njAJ1kdwg704&dib_tag=se&keywords=hindi+books&qid=1737947451&sprefix=hindi%2Caps%2C318&sr=8-33&xpid=By0NNQ58ZGlXQ"
-
- },
- {
-
-    "id":16,
-    "name": "IKIGAI",
-    "author": "Francesc Garica",
-    "price": 322 ,
-    "category":"sell",
-    "image": "https://m.media-amazon.com/images/I/81l3rZK4lnL._AC_UY327_FMwebp_QL65_.jpg"
-
- },
- {
-
-    "id":17,
-    "name": "The Silent Patient",
-    "author": "ALEX MICHAELIDES",
-    "price": 265 ,
-    "category":"StoryBook",
-    "image": "https://m.media-amazon.com/images/I/81JJPDNlxSL._AC_UY327_FMwebp_QL65_.jpg"
-
- },
- {
-
-    "id":18,
-    "name": "POWER",
-    "author": "ROBERT GREENE",
-    "price": 220 ,
-    "category":"sell",
-    "image": "https://m.media-amazon.com/images/I/61F-bq53kOL._AC_UY327_FMwebp_QL65_.jpg"
-
- },
- {
-
-    "id":19,
-    "name": "THE MONK WHO SOLD HIS FERRARI",
-    "author": "Robin Sharma",
-    "price": 118 ,
-    "category":"sell",
-    "image": "https://m.media-amazon.com/images/I/417WFuXHHzL._SY342_.jpg"
-
- },
- {
-
-    "id":20,
-    "name": "MEN SEARCH FOR MEANING",
-    "author": "VICTOR E. FRANKL",
-    "price": 144 ,
-    "category":"sell",
-    "image": "https://m.media-amazon.com/images/I/71P2dC5OQhL._SY342_.jpg"
-
- },
+[
+   {
+     "id": 1,
+     "name": "Iron Flame",
+     "author": "Rebecca Yarros",
+     "price": 500,
+     "category": "StoryBook",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/917Bc9C1MlL._AC_UL600_SR600,400_.jpg?w=342&h=342"
+   },
+   {
+     "id": 2,
+     "name": "A COURT OF WINGS AND RUIN",
+     "author": "Sarah j.Mass",
+     "price": 200,
+     "category": "Fiction",
+     "image": "https://m.media-amazon.com/images/I/81x57yTWFqL._SY342_.jpg?w=342&h=342"
+   },
+   {
+     "id": 3,
+     "name": "A MAN CALLED OVE",
+     "author": "FEDRIK BACKMAN",
+     "price": 100,
+     "category": "Fiction",
+     "image": "https://m.media-amazon.com/images/I/81g2oEdeGTL._AC._SR360,460.jpg?w=342&h=342"
+   },
+   {
+     "id": 4,
+     "name": "Harry Potter and the Chamber of Secrets",
+     "author": "JK ROWLING",
+     "price": 200,
+     "category": "fiction",
+     "image": "https://m.media-amazon.com/images/I/818umIdoruL._AC._SR360,460.jpg?w=342&h=342"
+   },
+   {
+     "id": 5,
+     "name": "SHAH RUKH KHAN",
+     "author": "MOHAR BASU",
+     "price": 250,
+     "category": "Biography",
+     "image": "https://m.media-amazon.com/images/I/81KxYTNaYxL._AC._SR360,460.jpg?w=342&h=342"
+   },
+   {
+     "id": 6,
+     "name": "Wings Of Fire ",
+     "author": "APJ ABDUL KALAM ",
+     "price": 100,
+     "category": "Autobiography",
+     "image": "https://m.media-amazon.com/images/I/71KKZlVjbwL._AC._SR360,460.jpg?w=342&h=342"
+   },
+   {
+     "id": 7,
+     "name": "A BRIEF HISTORY OF TIME",
+     "author": "STEPHEN HAWKING ",
+     "price": 333,
+     "category": "Autobiography",
+     "image": "https://m.media-amazon.com/images/I/81DBK93b6jL._AC._SR360,460.jpg?w=342&h=342"
+   },
+   {
+     "id": 8,
+     "name": "THE DIARY OF A YOUNG GIRL",
+     "author": "ANNE FRANK",
+     "price": 139,
+     "category": "Autobiography",
+     "image": "https://m.media-amazon.com/images/I/81lZ-9E4F-S._AC._SR360,460.jpg?w=342&h=342"
+   },
+   {
+     "id": 9,
+     "name": "NON SENSE",
+     "author": "Daksh Tyagi",
+     "price": 399,
+     "category": "Humor",
+     "image": "https://m.media-amazon.com/images/I/61r5DfVizrL._AC._SR360,460.jpg?w=342&h=342"
+   },
+   {
+     "id": 10,
+     "name": "THREE MEN IN A BOAT",
+     "author": "Jerome k.Jerome",
+     "price": 120,
+     "category": "Humor",
+     "image": "https://m.media-amazon.com/images/I/71I-wmRTBdL._AC_SR480%2C570_.jpg?w=342&h=342"
+   },
+   {
+     "id": 11,
+     "name": "COMEDY IN KHAKEE",
+     "author": "PRAKASH MISHRA,IPS",
+     "price": 350,
+     "category": "Humor",
+     "image": "https://m.media-amazon.com/images/I/71ZQ0kNk3PL._AC._SR360,460.jpg?w=342&h=342"
+   },
+   {
+     "id": 12,
+     "name": "October Junction",
+     "author": "Divya Prakash Dube",
+     "price": 149,
+     "category": "Hindi",
+     "image": "https://m.media-amazon.com/images/I/71bcfeaqHpL._AC_UY327_FMwebp_QL65_.jpg?w=342&h=342"
+   },
+   {
+     "id": 13,
+     "name": "Godan",
+     "author": "Premchand",
+     "price": 179,
+     "category": "Hindi",
+     "image": "https://m.media-amazon.com/images/I/71U6ZbG2TEL._AC_UY327_FMwebp_QL65_.jpg?w=342&h=342"
+   },
+   {
+     "id": 14,
+     "name": "Kafan",
+     "author": "Premchand",
+     "price": 164,
+     "category": "Hindi",
+     "image": "https://m.media-amazon.com/images/I/81MDiCjzUxL._AC_UY327_FMwebp_QL65_.jpg?w=342&h=342"
+   },
+   {
+     "id": 15,
+     "name": "Chanakya Niti",
+     "author": "Ashwini Parashar",
+     "price": 130,
+     "category": "Hindi",
+     "image": "https://www.amazon.in/Chanakya-Neeti-Ashwini-Parashar/dp/8171826253/ref=sr_1_33?crid=2I78HIM7A2LRF&dib=eyJ2IjoiMSJ9.eEkLy_ERTbHKOL6b-sA55NNPJzMMLneLaQwqikoH_3Yek5Ti7ATeXoajDL-J45YPEbpXM8DB-zeraBWNUo1FzBFamCVj922riAQg0SRNc95sUF8zjMj45RU9oYUUREgEE45ry1lMpYABp0c2x4UbppVKJXxjNf_e0T23s7RZdxd4NGo_WeklN_K36KnF8-Sw2T-X9wy9ZNyF8CY3C9Dj5fKbxiRvXxJWU4DI3XJ2ki8.4vYRY8zS9UmaVmU0DtT2g4kDEovoXm-njAJ1kdwg704&dib_tag=se&keywords=hindi+books&qid=1737947451&sprefix=hindi%2Caps%2C318&sr=8-33&xpid=By0NNQ58ZGlXQ?w=342&h=342"
+   },
+   {
+     "id": 16,
+     "name": "IKIGAI",
+     "author": "Francesc Garica",
+     "price": 322,
+     "category": "sell",
+     "image": "https://m.media-amazon.com/images/I/81l3rZK4lnL._AC_UY327_FMwebp_QL65_.jpg?w=342&h=342"
+   },
+   {
+     "id": 17,
+     "name": "The Silent Patient",
+     "author": "ALEX MICHAELIDES",
+     "price": 265,
+     "category": "StoryBook",
+     "image": "https://m.media-amazon.com/images/I/81JJPDNlxSL._AC_UY327_FMwebp_QL65_.jpg?w=342&h=342"
+   },
+   {
+     "id": 18,
+     "name": "POWER",
+     "author": "ROBERT GREENE",
+     "price": 220,
+     "category": "sell",
+     "image": "https://m.media-amazon.com/images/I/61F-bq53kOL._AC_UY327_FMwebp_QL65_.jpg?w=342&h=342"
+   },
+   {
+     "id": 19,
+     "name": "THE MONK WHO SOLD HIS FERRARI",
+     "author": "Robin Sharma",
+     "price": 118,
+     "category": "sell",
+     "image": "https://m.media-amazon.com/images/I/417WFuXHHzL._SY342_.jpg?w=342&h=342"
+   },
+   {
+     "id": 20,
+     "name": "MEN SEARCH FOR MEANING",
+     "author": "VICTOR E. FRANKL",
+     "price": 144,
+     "category": "sell",
+     "image": "https://m.media-amazon.com/images/I/71P2dC5OQhL._SY342_.jpg?w=342&h=342"
+   },
+   {
+     "id": 21,
+     "name": "Dopamine Detox",
+     "author": "THIBAUT",
+     "price": 200,
+     "category": "sell",
+     "image": "https://m.media-amazon.com/images/I/712K3sdLlRL._SY342_.jpg?w=342&h=342"
+   }
+ ]
  
- {
-
-   
-
-    "id":21,
-    "name": "Dopamine Detox",
-    "author": "THIBAUT",
-    "price": 200 ,
-    "category":"sell",
-    "image": "https://m.media-amazon.com/images/I/712K3sdLlRL._SY342_.jpg"
-
- }
-]
-

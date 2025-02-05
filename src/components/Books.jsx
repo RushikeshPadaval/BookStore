@@ -14,7 +14,7 @@ function Books() {
         <p className="mt-12" >
         "Explore our wide collection of books across various genres, from the latest bestsellers to timeless classics. Whether you're a fan of fiction, non-fiction, self-help, or children's books, we have something for everyone. Discover new authors and dive into captivating stories that will expand your knowledge and imagination. Browse, read reviews, and find your next favorite book today. Start your literary journey with us!"
         </p>
-        <button className=" mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300 " >
+        <button className=" mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300  " >
             Back
         </button>
    
@@ -22,7 +22,7 @@ function Books() {
     <div  className="mt-12 grid grid-cols-1 md:grid-cols-4 " >
         {
             list.map((item)=> (
-                < Cards key= {item.id} item={item} />
+                < Cards key= {item.id} item={item}  />
             ))
             
         }

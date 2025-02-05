@@ -8,7 +8,7 @@ function Cards ({item})  {
   <figure>
     <img
       src={item.image} 
-      alt="Shoes" />
+      alt="Shoes" className=" max-w-[200px] max-h-[300px] object-cover rounded-md"  />
   </figure>
   <div className="card-body">
     <h2 className="card-title">
