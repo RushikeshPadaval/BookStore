@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 
 function Navbar() {
-  const[theme,setTheme]=useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light")
+  const[theme,setTheme]=useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light");
   const element = document.documentElement;
   useEffect(()=>{
     if(theme==="dark"){
@@ -15,7 +15,7 @@ function Navbar() {
       localStorage.setItem("theme","light");
       document.body.classList.remove("dark");
     }
-  },[]);
+  },[theme]);
 
 
 
