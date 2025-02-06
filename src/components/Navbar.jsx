@@ -1,6 +1,7 @@
 
 import React, { useEffect } from 'react'
 import { useState } from 'react'
+import Login from './Login';
 
 function Navbar() {
   const[theme,setTheme]=useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light");
@@ -94,7 +95,7 @@ function Navbar() {
             </div>
             <div className='hidden md:block'>
               <label className="px-3 py-2 border rounded-md flex items-center gap-2">
-                <input type="text" className="grow outline-none" placeholder="Search" />
+                <input type="text" className="grow outline-none  dark:bg-slate-900 dark:text-white " placeholder="Search" />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
@@ -139,7 +140,10 @@ function Navbar() {
             </label>
 
             <div className="">
-              <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer">Login</a>
+              <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"  onClick={()=> document.getElementById("my_modal_3").showModal() }
+              >
+                Login</a>
+                <Login/>
             </div>
           </div>
         </div>
