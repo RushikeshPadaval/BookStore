@@ -26,6 +26,14 @@ function Login()  {
     <input type='text' placeholder='Enter your password ' className='w-80 px-3 py-1 border rounded-md outline-none
     ' />
     </div> 
+    {/* Button */}
+     <div className='flex  justify-around mt-4 ' >
+
+     <button className='bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200' > Login</button>
+     <p>Not Registered <span className='underline text-blue-500 cursor-pointer ' >Signup</span></p>
+
+     </div>
+
      </div>
 </dialog>
    </div>
