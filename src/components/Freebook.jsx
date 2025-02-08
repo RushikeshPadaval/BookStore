@@ -43,7 +43,6 @@ function Freebook() {
         ]
     };
 
-    console.log(filterData); // Should show 4 items (ids: 16, 18, 19, 20)
 
     return (
     <>
