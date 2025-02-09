@@ -33,6 +33,9 @@ function Login()  {
                 className='w-80 px-3 py-1 border rounded-md outline-none'
                 {...register("email", { required: true })}
               />
+              <br/>
+                    {errors.email && <span className=' text-sm text-red-500' >This field is required</span>}
+
             </div>
             
             {/* Password */}
@@ -45,6 +48,9 @@ function Login()  {
                 className='w-80 px-3 py-1 border rounded-md outline-none'
                 {...register("password", { required: true })}
               />
+              <br/>
+                    {errors.password &&  <span className=' text-sm text-red-500' >This field is required</span>}
+
             </div>
 
             {/* Submit button */}
