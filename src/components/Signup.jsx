@@ -1,13 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Login from "./Login";
+import { useForm } from "react-hook-form"
+
 function Signup() {
+
+   const {
+      register,
+      handleSubmit,
+      formState: { errors },
+    } = useForm()
+  
+    const onSubmit = (data) => {
+      console.log(data)  // Logs the values of email and password
+    }
   return (
     <>
       <div className="flex h-screen items-center justify-center border">
         <div className="w-[600px]">
           <div className="modal-box">
-            <form method="dialog">
+            <form onSubmit={handleSubmit(onSubmit)} method="dialog">
               {/* if there is a button in form, it will close the modal */}
               <Link
                 to="/"
@@ -15,7 +27,7 @@ function Signup() {
               >
                 ✕
               </Link>
-            </form>
+       
             <h3 className="font-bold text-lg">Signup</h3>
             <div className="mt-4 space-y-2">
               <span>Name</span>
@@ -24,8 +36,10 @@ function Signup() {
                 type="text"
                 placeholder="Enter your fullname "
                 className="w-80 px-3 py-1 border rounded-md outline-none
-    "
+    " {...register("name", { required: true })}
               />
+                                  {errors.name && <span className=' text-sm text-red-500' >This field is required</span>}
+
             </div>
             {/* Email */}
             <div className="mt-4 space-y-2">
@@ -36,7 +50,10 @@ function Signup() {
                 placeholder="Enter your email "
                 className="w-80 px-3 py-1 border rounded-md outline-none
     "
+    {...register("email", { required: true })}
               />
+                                  {errors.email && <span className=' text-sm text-red-500' >This field is required</span>}
+
             </div>
             {/* Password */}
 
@@ -48,7 +65,11 @@ function Signup() {
                 placeholder="Enter your password "
                 className="w-80 px-3 py-1 border rounded-md outline-none
     "
+    {...register("password", { required: true })}
               />
+              
+              {errors.password && <span className=' text-sm text-red-500' >This field is required</span>}
+
             </div>
             {/* Button */}
             <div className="flex  justify-around mt-4 ">
@@ -69,6 +90,7 @@ function Signup() {
                 <Login />
               </p>
             </div>
+            </form>
           </div>
         </div>
       </div>

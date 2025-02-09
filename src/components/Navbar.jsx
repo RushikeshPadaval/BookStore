@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import Login from './Login';
+import Contact from './Contact';
 
 function Navbar() {
   const[theme,setTheme]=useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light");
@@ -46,7 +47,7 @@ function Navbar() {
         <a href='/Books' >Books</a>
         </li>
       <li>
-        <a>Contact</a>
+        <a href='/Contact'>Contact</a>
         </li>
       <li>
         <a>About</a>
