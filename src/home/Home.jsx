@@ -11,8 +11,8 @@ function Home  () {
     <Navbar/>
     <Banner/>
     <Freebook/>
-    <Footer/>
     <Contact/>
+    <Footer/>
     </>
   );
 }

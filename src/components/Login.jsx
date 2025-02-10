@@ -20,8 +20,8 @@ function Login()  {
         <div className="modal-box">
           {/* Wrap inputs inside the form */}
           <form onSubmit={handleSubmit(onSubmit)} method="dialog">
-            <Link to="/" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</Link>
             <h3 className="font-bold text-lg">Login</h3>
+            <Link to="/" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</Link>
             
             {/* Email */}
             <div className='mt-4 space-y-2'>
