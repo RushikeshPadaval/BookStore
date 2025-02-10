@@ -1,11 +1,38 @@
-const express = require('express')
+import express from "express";;
+import dotenv from "dotenv";
+import mongoose from "mongoose";
+
 const app = express()
-const port = 3000
+
+dotenv.config();
+const PORT= process.env.PORT || 4000;
+const URI=process.env.MongoDBURI;
+
+
+
+// connect to mongoDB
+try{
+
+    mongoose.connect (URI, {
+        // require only when we run the server locally if we use the mongoDB atlas the cloud server then the parser and the topology was not essential
+        useNewUrlParser: true,
+        useUnifiedTopology:true
+    });
+
+    console.log("Connected to mongoDB");
+    
+
+} catch (error){
+    console.log("Error: ", error);
+    
+
+}
+
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+app.listen(PORT, () => {
+  console.log(`Example app listening on port ${PORT}`)
 })
