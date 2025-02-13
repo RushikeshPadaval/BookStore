@@ -27,5 +27,18 @@ export const signup= async (req,res)=>{
         
 
     }
+};
+
+export const login=async(req,res)=>{
+    try{
+        const {email,password}=req.body;
+        const user = await User.findOne({email});
+        const isMatch = bcryptjs.compare(password,user.password)
+
+        if(!user || !isMatch){
+            return res.status(400).json({message:"Invalid username or password"});
+            
+        }
+    }
 }
 
