@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom"
 import Book  from './Book/Book';
 import Signup from './components/Signup';
 import Contact from './components/Contact';
+import  { Toaster } from 'react-hot-toast';
 function App() {
   return (
    <>
@@ -15,6 +16,7 @@ function App() {
   <Route path='/signup' element={<Signup/>} />
   <Route path='/contact' element = {<Contact/>}/>
 </Routes>
+<Toaster />
 
    </div>
 
