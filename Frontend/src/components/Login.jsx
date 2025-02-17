@@ -21,12 +21,19 @@ function Login()  {
       console.log(res.data);
       if(res.data){
 
-        toast.success("Login Successfull");
+        toast.success("Logged Successfully");
+        document.getElementById("my_modal_3").close();
+        setTimeout(()=>{
+          window.location.reload();
+          
+          localStorage.setItem("Users",JSON.stringify(res.data))
+        },1000);
+
       }
-      localStorage.setItem("Users",JSON.stringify(res.data))
     }).catch((err)=>{
       console.log(err);
 toast.error("Error:"+err.response.data.message);      
+setTimeout(()=>{},2000);
     })
   }
 
@@ -37,7 +44,14 @@ toast.error("Error:"+err.response.data.message);
           {/* Wrap inputs inside the form */}
           <form onSubmit={handleSubmit(onSubmit)} method="dialog">
             <h3 className="font-bold text-lg">Login</h3>
-            <Link to="/" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</Link>
+            <Link
+              to="/"
+              className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+              onClick={() => document.getElementById("my_modal_3").close()}
+            >
+              ✕
+            </Link>
+
             
             {/* Email */}
             <div className='mt-4 space-y-2'>
