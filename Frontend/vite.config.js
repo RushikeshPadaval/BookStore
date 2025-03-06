@@ -20,7 +20,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://your-backend.onrender.com", // Replace with your Render backend URL
+        target: "https://bookstore-8qig.onrender.com", // Replace with your Render backend URL
         changeOrigin: true,
         secure: false,
       },
