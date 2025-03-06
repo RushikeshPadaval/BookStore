@@ -11,6 +11,10 @@ function App() {
   const [authUser,setAuthUser] =useAuth();
 console.log(authUser);
 
+
+
+
+
   return (
    <>
    <div className='dark:bg-slate-900 dark:text-white'>
@@ -31,3 +35,5 @@ console.log(authUser);
 }
 
 export default App
+
+
