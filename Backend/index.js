@@ -22,8 +22,8 @@ try{
 
     mongoose.connect (URI, {
         // require only when we run the server locally if we use the mongoDB atlas the cloud server then the parser and the topology was not essential
-        useNewUrlParser: true,
-        useUnifiedTopology:true
+        // useNewUrlParser: true,
+        // useUnifiedTopology:true
     });
 
     console.log("Connected to mongoDB");
